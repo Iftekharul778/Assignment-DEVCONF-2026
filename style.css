@@ -29,7 +29,7 @@ nav{
      margin: auto;
 }
 
-ul{
+/* ul{
    display: flex;
     justify-content: space-between; 
     list-style: none; 
@@ -37,7 +37,7 @@ ul{
     align-items: center;
     cursor: pointer;
     color: #575757;
-}
+} */
 
 .register-btn{
     background-color: #1d4ed8;
@@ -87,7 +87,8 @@ ul{
     margin-top: 160px;
     background-color: #1d4ed8;
     border: none;
-    padding: 10px 20px;
+   border: none;
+   padding: 10px 20px;
     border-radius: 6px;
     font-weight: bold;
     font-size: 22px;
@@ -102,11 +103,12 @@ ul{
     padding: 20px;
     box-sizing: border-box;
 
+
 }
 .speakers h2{
     text-align: center;
     font-size: 48px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .speakers-grid{
@@ -143,4 +145,89 @@ ul{
     padding: 4px 20px 0 20px;
     color: #666;
     font-size: 14px;
+}
+
+/*.............. (Pricing) Section ................*/
+
+.features{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.pricing h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.pricing-subtitle{
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+
+}
+
+.pricing-card{
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 40px 30px;
+    border: 1px solid #e5e5e5;
+
+}
+
+.pricing-card.featured{
+    background-color: #0f172a;
+    color: white;
+    
+    
+
+}
+
+.plan-name{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #888;
+}
+
+.featured .plan-name{
+    color: #ccc;
+}
+
+.price{
+    font-size: 36px;
+    margin: 15px 0 25px 0;
+}
+
+.price-unit{
+    font-size: 14px;
+    font-weight: normal;
+    color: #888;
+}
+
+.features li{
+    padding: 8px;
+    font-size: 14px;
+}
+
+.plan-btn{
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #1d4ed8;
+    background-color: white;
+    color: #1d4ed8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.featured .plan-btn{
+    background-color:#1d4ed8;
+    color: white;
 }
