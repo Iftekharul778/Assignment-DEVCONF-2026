@@ -8,8 +8,20 @@ header{
 nav{
     background-color: white;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 10px; 
+    padding: 20px 60px; 
+}
+.child-nav{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+
+.child-nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
 }
 
 .container{
@@ -27,10 +39,11 @@ ul{
     color: #575757;
 }
 
-.common-button{
+.register-btn{
     background-color: #1d4ed8;
+    border: none;
     padding: 10px 20px;
-    border-radius: 12px;
+    border-radius: 6px;
     font-weight: bold;
     font-size: 22px;
     color: white;
@@ -38,3 +51,46 @@ ul{
 }
 /* ...................Nav end....................... */
 
+
+/* hero section */
+.hero-parent{
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    height: 600px;
+}
+.hero-content{
+    position: relative;
+    color: white;
+    width: 959px;
+    z-index: 2;
+}
+
+.hero-content h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    height: 1.5px; 
+    text-align: center; 
+}
+
+.register-btn2{
+    margin-top: 160px;
+    background-color: #1d4ed8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
