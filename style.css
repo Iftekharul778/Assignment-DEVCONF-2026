@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #ffffff;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.container{
+     max-width: 1200px; 
+     margin: auto;
+}
+
+ul{
+   display: flex;
+    justify-content: space-between; 
+    list-style: none; 
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    color: #575757;
+}
+
+.common-button{
+    background-color: #1d4ed8;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+/* ...................Nav end....................... */
+
