@@ -272,3 +272,65 @@ nav{
     color: #999;
     font-size: 14px;
 }
+
+
+
+/* .............FAQ section.......... */
+
+.faq{
+    margin-top: 20px;
+    background-color: #f2edf8;
+    padding: 15px;
+}
+.faq h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    /* background-color: #eceef3;
+    padding: 20px; */
+}
+
+.faq-subtitle{
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    /* background-color: #eceef3; */
+}
+
+.faq-question{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item{
+    background-color: #738ca5;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.faq-item summary{
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-right: 40px;
+}
+
+.faq-item summary::after{
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font: 20px;
+    color: #f61313;
+}
+
+.faq-item p{
+    margin-top: 12px;
+    color: #555;
+    font-size: 20px
+    line-height: 1.7;
+}
